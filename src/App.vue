@@ -41,7 +41,7 @@ const openMenu = ref(false);
       >
         <div class="flex items-center">
           <img src="https://picsum.photos/200" width="27" class="rounded-full" />
-          <div class="text-white text-[14px] ml-1.5 font-semibold">John Weeks Dev</div>
+          <div class="text-white text-[14px] ml-1.5 font-semibold">JavaScript Dev</div>
           <ChevronDown v-if="!openMenu" @click="openMenu = true" fill-color="#FFFFFF" :size="25" />
           <ChevronUp v-else @click="openMenu = false" fill-color="#FFFFFF" :size="25" />
         </div>
